@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ku">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>KSM App</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: #1C1C44;
+      color: white;
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      min-height: 100vh;
+      padding: 30px 20px;
+    }
+
+    .container {
+      max-width: 900px;
+      width: 100%;
+      text-align: center;
+      background: rgba(255, 255, 255, 0.03);
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 0 25px rgba(248, 180, 0, 0.25);
+    }
+
+    .logo {
+      width: 120px;
+      height: 120px;
+      border-radius: 25px;
+      margin-bottom: 20px;
+      border: 3px solid #F8B400;
+      object-fit: cover;
+    }
+
+    h1 {
+      color: #F8B400;
+      font-size: 40px;
+      margin-bottom: 15px;
+    }
+
+    p.description {
+      font-size: 18px;
+      color: #ddd;
+      margin-bottom: 30px;
+      line-height: 1.7;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin-bottom: 30px;
+    }
+
+    .store-btn img {
+      width: 160px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .store-btn img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 15px #F8B400;
+    }
+
+    .about {
+      font-size: 16px;
+      margin-top: 20px;
+      line-height: 1.6;
+      color: #aaa;
+    }
+
+    .footer {
+      margin-top: 30px;
+      font-size: 14px;
+      color: #888;
+    }
+
+    .footer a {
+      color: #F8B400;
+      text-decoration: none;
+    }
+
+    .social {
+      margin-top: 10px;
+    }
+
+    .social a {
+      margin: 0 10px;
+      color: #F8B400;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .social a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 30px;
+      }
+      .logo {
+        width: 90px;
+        height: 90px;
+      }
+      .store-btn img {
+        width: 140px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <img src="newlogoapp.png" alt="Logo" class="logo">
+
+    <h1>Kurdish Social Media (KSM)</h1>
+
+    <p class="description">
+ئەپڵیکەیشنا سوشیال میدییایا کوردی هەر نوکە تاقی بکە و بەژداربە و مفای ژێ ببینە.    </p>
+
+    <div class="buttons">
+      <a class="store-btn" href="https://play.google.com/store/apps/details?id=com.kurdishsocialmediaapplicationksm.android&pcampaignid=web_share" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play">
+      </a>
+      <a class="store-btn" href="https://apps.apple.com/us/app/kurdish-social-media-ksm/id6673919425" target="_blank">
+        <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="App Store">
+      </a>
+    </div>
+
+    <div class="about">
+سوشیاڵەکا نوی دروست بکە     </div>
+
+    <div class="social">
+      <a href="https://t.me/peshawaalnd" target="_blank">Telegram</a>
+      <a href="https://www.instagram.com/peshawaalnd" target="_blank">Instagram</a>
+      <a href="mailto:peshawaalnd@gmail.com">Email</a>
+    </div>
+
+    <div class="footer">
+      Created by <a href="https://t.me/peshawaalnd" target="_blank">@peshawaalnd</a> — 2024
+    </div>
+  </div>
+
+</body>
+</html>
